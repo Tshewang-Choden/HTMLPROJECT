@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Assesment Three</title>
+	<link rel="stylesheet" href="">
+    </head>
+    
+    <body style= "background-image:linear-gradient(150deg,rgba(6,5,0,0.5),rgba(160,250,30,0.2))">
+    	<h1 align="center" style="color:rgb(170,60,40)">HOTEL BOOKING FORM </h1>
+    	<hr style="height:5px; background-color: black">
+    	<form method="post">
+    		<label for="name"><strong><big>NAME:</big></strong></label>&nbsp;
+    		<input type="text" style="height:30px;width:300px;border-radius:5px" id="name"placeholder="eg:tshewang"><br><br><br>
+
+    		<label for="AGE"><strong><big>AGE:</big></strong></label>&nbsp;
+    		<input type="text" style="height:30px;width:300px;border-radius:5px" id="age"placeholder="eg:12"><br><br><br>
+
+    		<label for="DATE1"><strong><big>DOB:</big></strong></label>&nbsp;
+    		<input type="datetime-local" style="height:30px;width:300px;border-radius:5px" id="date1"name="date1"required><br><br><br>
+    		<label for="emailid"><strong><big>EMAIL:<sup style="color: red">*</sup></big></strong></label>&nbsp;
+            <input type="email" style="height: 30px ; width:300px ;border-radius: 5px" id="emailid" name="age" placeholder="example@gmail.com" required><br><br><br>
+            
+            
+            <label for="password"><strong><big>PASSWORD:<sup style="color: red">*</sup></big></strong></label>&nbsp;
+            <input type="password" style="height: 30px ; width:300px ;border-radius: 5px" id="password" name="password"required><br><br><br>
+            
+            <label for="CONTACT NO."><strong><big>CONTACT NO.:<sup style="color: red">*</sup></big></strong></label>&nbsp;
+            <input type="CONTACT NO." style="height: 30px ; width:300px ;border-radius: 5px" id="CONTACT NO." name="CONTACT NO." placeholder="1927330" required><br><br><br>
+            
+            <label for="checkboxes"><strong><big>CURRENT RESIDENT:</big></strong></label>
+            <input type="checkbox" id="checkboxes" name="checkboxes" value="resident" checked><big><strong>PAYMENT</strong></big>
+            
+            <input type="checkbox" id="checkboxes" name="checkboxes" value="payment" required><big><strong>CASH</strong></big>
+            
+            
+            <input type="checkbox" id="checkboxes" name="checkboxes" value="digital transfer"><big><strong>DIGITAL TRANSFER</strong></big><br><br><br>
+            
+            <label for="radiobuttonsvalues"><strong><big>GENDER:</big></strong></label>
+            
+            <input type="radio" id="radiobuttonsvalues" name="radiobuttonsvalues" value="MALE" checked><big><strong>MALE</strong></big>
+            
+            <input type="radio" id="radiobuttonsvalues" name="radiobuttonsvalues" value="FEMALE"><big><strong>FEMALE</strong></big><br><br><br>
+            
+             
+            <label for="options"><strong><big>CURRENT RESIDENT: </big></strong></label>
+            <select id="options" value="options"><!-- multiple -->
+                <option>THIMPHU</option>
+                <option>CHUKHA</option>
+                <option>SAMTSE</option>
+                <option>SAMDRUP JONGKHAR</option>
+                <option>TSIRANG</option>
+                <option>SARPANG</option>
+                
+                
+            </select><br><br><br>
+            
+            <label for="querybox"><strong><big>FEEDBACK QUERY :</big></strong></label>
+            <textarea rows=5 cols=15>
+            
+            </textarea><br><br><br>
+            
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </body>
+</html>
